@@ -11,6 +11,10 @@
   box-sizing: border-box;
   margin: 0 auto;
   margin-top: pxToRem(160);
+
+  @include media-medium {
+    margin-top: pxToRem(24);
+  }
 }
 
 .image_dog {

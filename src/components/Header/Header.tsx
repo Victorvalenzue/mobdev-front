@@ -2,7 +2,7 @@ import React, {useEffect, useRef} from 'react'
 import {useRouter} from 'next/router'
 import classnames from 'classnames'
 
-import {headerIds} from 'utils/ids'
+import {headerIds} from '../../utils/ids'
 import {LOGO} from '../../utils/assets'
 import routes from '../../utils/routes'
 

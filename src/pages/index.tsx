@@ -1,11 +1,11 @@
 import React from 'react'
 
-import Breeds from 'components/Breeds'
-import Footer from 'components/Footer'
-import Header from 'components/Header'
-import Layout from 'components/Layout'
+import Breeds from '../components/Breeds'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
+import Layout from '../components/Layout'
 
-import {homeIds} from 'utils/ids'
+import {homeIds} from '../utils/ids'
 
 const HomePage: React.FC = () => {
   return (

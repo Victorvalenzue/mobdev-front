@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import '../styles/globals.scss'
 
-import {TEMPLATE_NAME} from 'utils/constants'
+import {TEMPLATE_NAME} from '../utils/constants'
 
 const MyApp: React.FC<AppProps> = ({Component, pageProps}) => {
   return (

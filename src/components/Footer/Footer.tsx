@@ -1,8 +1,8 @@
 import React from 'react'
 import {useRouter} from 'next/router'
 
-import routes from 'utils/routes'
-import {footerIds} from 'utils/ids'
+import routes from '../../utils/routes'
+import {footerIds} from '../../utils/ids'
 import {FOOTER_LOGO} from '../../utils/assets'
 
 import styles from './Footer.module.scss'

@@ -1,11 +1,11 @@
 /* eslint-disable react/no-array-index-key */
 import React, {useEffect, useState} from 'react'
 
-import BreedSelector from 'components/BreedSelector'
-import ImagesList from 'components/ImagesList'
-import NoResult from 'components/NoResult'
-import Loader from 'components/Loader'
-import Top from 'components/Top'
+import BreedSelector from '../BreedSelector'
+import ImagesList from '../ImagesList'
+import NoResult from '../NoResult'
+import Loader from '../Loader'
+import Top from '../Top'
 
 import {DOG_API_SUCCESS, getImages, getBreeds} from '../../services/breeds'
 import {LOADER_PAGE_DELAY} from '../../utils/constants'

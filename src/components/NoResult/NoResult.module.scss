@@ -39,11 +39,13 @@
 
 .without_result_title {
   color: $color-title;
+
   @include display-medium;
 }
 
 .without_result_subtitle {
   color: $color-primary;
+
   @include display-small;
 }
 

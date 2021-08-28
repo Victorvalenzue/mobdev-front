@@ -1,7 +1,7 @@
 import React from 'react'
 
-import {NO_RESULT} from 'utils/assets'
-import {serverErrorContent, withoutContent} from 'utils/texts'
+import {NO_RESULT} from '../../utils/assets'
+import {serverErrorContent, withoutContent} from '../../utils/texts'
 
 import Text from '../Text'
 
