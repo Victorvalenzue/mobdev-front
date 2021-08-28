@@ -1,6 +1,6 @@
-![Walmart](public/logo.svg)
+![MOBDEV](public/logo.svg)
 
-# MOVDEV Front Challenge
+# MOBDEV Front Challenge
 
 Proyecto construido con [Next.js](https://nextjs.org/) y [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
