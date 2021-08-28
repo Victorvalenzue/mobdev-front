@@ -1,5 +1,5 @@
 module.exports = {
   env: {
-    DOG_API_URL: 'https://dog.ceo/api/',
+    DOG_API_URL: process.env.DOG_API_URL,
   },
 }

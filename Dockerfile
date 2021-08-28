@@ -17,6 +17,7 @@ RUN yarn build
 FROM node:lts as runner
 WORKDIR /front
 ENV NODE_ENV production
+ENV DOG_API_URL https://dog.ceo/api/
 
 COPY --from=builder /front/public ./public
 COPY --from=builder /front/.next ./.next
