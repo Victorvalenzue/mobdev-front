@@ -110,5 +110,12 @@ docker build -t mobdev-front-app-test .
 
 docker run -it -p 3000:3000 mobdev-front-app-test
 
-
 ```
+
+----
+
+# material-ui
+
+Se decidió utilizar [material-ui](https://v3.material-ui.com/) principalmente por el
+componente **TreeView**, el cual facilitó la implementación de checkboxes anidados, acelerando
+el desarrollo
