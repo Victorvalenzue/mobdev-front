@@ -1,0 +1,30 @@
+@import '../../styles/variables.scss';
+@import '../../styles/functions.scss';
+@import '../../styles/mixins.scss';
+
+.images_container {
+  max-width: pxToRem(800);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: normal;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: pxToRem(160);
+}
+
+.image_dog {
+  max-width: pxToRem(300);
+  padding: pxToRem(4);
+  height: auto;
+
+  @include media-medium {
+    max-width: pxToRem(360);
+  }
+}
+
+.breed_name {
+  padding: pxToRem(16);
+
+  @include display-medium;
+}

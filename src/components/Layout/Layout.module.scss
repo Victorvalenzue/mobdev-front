@@ -1,0 +1,12 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+@import '../../styles/functions.scss';
+
+.layout_container {
+  min-height: pxToRem(360);
+  margin: pxToRem(130) pxToRem(16) pxToRem(16);
+
+  @include media-medium{
+    margin: pxToRem(120) pxToRem(32);
+  }
+}

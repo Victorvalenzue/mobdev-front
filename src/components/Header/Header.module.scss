@@ -1,0 +1,86 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+@import '../../styles/functions.scss';
+
+.header {
+  top: 0;
+  box-sizing: border-box;
+  padding: pxToRem(16);
+  background-color: $color-header-bg;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+  flex-direction: column;
+  @include box-shadow-large;
+
+  @include media-medium {
+    flex-direction: row;
+    height: pxToRem(80);
+    padding: 0 pxToRem(32);
+  }
+
+  &.header_scrolled {
+    transition: top 0.3s;
+    top: 0;
+
+    &.header_sticky {
+      position: fixed;
+    }
+
+    &.hide {
+      top: pxToRem(-64);
+
+      @include media-medium {
+        top: pxToRem(-80);
+      }
+    }
+
+    & .header_btn_container {
+      display: block;
+    }
+  }
+
+  & .header_btn_container {
+    display: none;
+  }
+
+  @include media-medium {
+    & .header_btn_container {
+      display: block;
+    }
+  }
+}
+
+.header_sticky:not(.header_hide) {
+  position: fixed;
+}
+
+.header_hide {
+  .header_sticky {
+    position: absolute;
+  }
+}
+
+.header_logo {
+  display: flex;
+  align-items: center;
+
+  &.header_logo_redirect {
+    cursor: pointer;
+  }
+}
+
+.header_logo {
+  > .header_logo_img {
+    width: pxToRem(144);
+    height: auto;
+
+    @include media-medium {
+      width: pxToRem(160);
+    }
+  }
+}
+

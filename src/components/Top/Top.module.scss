@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+@import '../../styles/functions.scss';
+@import '../../styles/mixins.scss';
+
+svg.menu_icon_close {
+  position: fixed;
+  cursor: pointer;
+  margin: pxToRem(16);
+  bottom: 0;
+  right: 0;
+  background: $standard-bg;
+  border-radius: 50%;
+  padding: pxToRem(6);
+  box-shadow: $box-shadow-bottom-small $color-box-shadow;
+  font-size: pxToRem($font-size-display-medium);
+  transform: rotate(270deg);
+}

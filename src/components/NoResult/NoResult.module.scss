@@ -1,0 +1,53 @@
+@import '../../styles/variables.scss';
+@import '../../styles/functions.scss';
+@import '../../styles/mixins.scss';
+@import '../../styles/typography.scss';
+
+.without_result_container {
+  width: 100%;
+  max-width: pxToRem(900);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: pxToRem(32);
+  padding: pxToRem(16);
+  text-align: center;
+  margin-top: pxToRem(90);
+
+  @include media-medium {
+    margin-top: pxToRem(0);
+  }
+}
+
+.withour_result_image_container {
+  width: pxToRem(400);
+  margin-top: pxToRem(16);
+  padding: pxToRem(16);
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.without_separator {
+  width: pxToRem(100);
+  height: pxToRem(6);
+  background: $color-secondary;
+  margin: pxToRem(15) auto;
+}
+
+.without_result_title {
+  color: $color-title;
+  @include display-medium;
+}
+
+.without_result_subtitle {
+  color: $color-primary;
+  @include display-small;
+}
+
+.without_result_body {
+  color: $color-body;
+  padding: pxToRem(0) pxToRem(15) pxToRem(25);
+}

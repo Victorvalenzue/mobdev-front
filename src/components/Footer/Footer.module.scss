@@ -1,0 +1,54 @@
+@import '../../styles/variables.scss';
+@import '../../styles/functions.scss';
+@import '../../styles/mixins.scss';
+
+.footer {
+  display: flex;
+  margin-top: pxToRem(80);
+  padding-bottom: pxToRem(80);
+  max-height: pxToRem(384);
+  flex-direction: column;
+  background-color: $color-footer-bg;
+
+  @include media-medium {
+    max-height: pxToRem(348);
+  }
+}
+
+.actions_container {
+  display: flex;
+  margin-bottom: pxToRem(80);
+  text-align: left;
+  flex-direction: column;
+
+  @include media-medium {
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.footer_logo_img {
+  margin-left: pxToRem(16);
+  margin-top: pxToRem(40);
+  width: pxToRem(120);
+  height: auto;
+  cursor: pointer;
+
+  @include media-medium {
+    margin-top: pxToRem(64);
+  }
+}
+
+.horizontal_separator {
+  width: 100%;
+  border: pxToRem(1) solid addColorOpacity($color-border, 0.6);
+  align-content: center;
+  max-width: pxToRem(1200);
+  margin-top: pxToRem(32);
+
+  @include media-medium {
+    margin-top: pxToRem(60);
+    width: 80%;
+  }
+}

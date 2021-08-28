@@ -1,0 +1,99 @@
+$size-base: 16;
+$font-size: $size-base + px;
+$font-size-mobile: 14px;
+
+$flashback-font: 'sans-serif', 'Arial';
+$font-family: 'Josefin Sans', #{$flashback-font};
+
+$box-shadow-bottom-small: 0px 4px 12px;
+$box-shadow-bottom-medium: 0px 6px 14px;
+$box-shadow-bottom-large: 0px 10px 16px;
+
+$standard-bg: #ffffff;
+$color-header-bg: $standard-bg;
+$color-footer-bg: #1c1c1c;
+$color-default-shadow: #121954;
+$color-box-shadow: rgba(18, 25, 84, 0.07);
+$color-circular-loader-default: #060b25;
+$color-primary: #242c36;
+$color-secondary: #ff0000;
+$color-border: #eeeeee;
+$color-title: #333333;
+$color-body: #4d4d4d;
+$color-white: #ffffff;
+
+$color-light-grey: #dddddd;
+$color-light-grey-50: #afbacc;
+$color-dark-grey-100: #060b25;
+
+$color-circular-loader-primary: $color-primary;
+$color-circular-loader-secondary: $color-secondary;
+$color-circular-loader-default: #060b25;
+
+$font-size-display-xlarge: 56;
+$font-size-display-xlarge-responsive: 40;
+$font-size-display-large: 48;
+$font-size-display-large-responsive: 32;
+$font-size-display-medium: 40;
+$font-size-display-medium-responsive: 24;
+$font-size-display-small: 32;
+$font-size-display-small-responsive: 24;
+$font-size-display-xsmall: 24;
+$font-size-display-xsmall-responsive: 24;
+$font-size-title-xlarge: 24;
+$font-size-title-large: 18;
+$font-size-title-medium: 16;
+$font-size-title-small: 14;
+$font-size-button-xlarge: 18;
+$font-size-button-large: 16;
+$font-size-button-medium: 14;
+$font-size-button-small: 12;
+$font-size-button-icon-xlarge: 28;
+$font-size-button-icon-large: 24;
+$font-size-button-icon-medium: 20;
+$font-size-button-icon-small: 16;
+$font-size-body-xlarge: 24;
+$font-size-body-xlarge-responsive: 18;
+$font-size-body-large: 18;
+$font-size-body-large-responsive: 16;
+$font-size-body-medium: 16;
+$font-size-body-medium-responsive: 14;
+$font-size-body-small: 14;
+$font-size-caption: 12;
+$font-size-icon-xlarge: 32;
+$font-size-icon-large: 28;
+$font-size-icon-medium: 24;
+$font-size-icon-small: 20;
+$font-size-icon-xsmall: 16;
+
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+$line-height-display-xlarge: 64;
+$line-height-display-xlarge-responsive: 48;
+$line-height-display-large: 56;
+$line-height-display-large-responsive: 40;
+$line-height-display-medium: 48;
+$line-height-display-medium-responsive: 32;
+$line-height-display-small: 40;
+$line-height-display-small-responsive: 32;
+$line-height-display-xsmall: 32;
+$line-height-display-xsmall-responsive: 32;
+$line-height-title-xlarge: 32;
+$line-height-title-large: 24;
+$line-height-title-medium: 24;
+$line-height-title-small: 24;
+$line-height-button-xlarge: 40;
+$line-height-button-large: 32;
+$line-height-button-medium: 24;
+$line-height-button-small: 16;
+$line-height-body-xlarge: 32;
+$line-height-body-xlarge-responsive: 24;
+$line-height-body-large: 24;
+$line-height-body-large-responsive: 24;
+$line-height-body-medium: 24;
+$line-height-body-medium-responsive: 24;
+$line-height-body-small: 24;
+$line-height-caption: 16;
+
+

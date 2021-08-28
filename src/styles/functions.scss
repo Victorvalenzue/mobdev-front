@@ -1,0 +1,11 @@
+@import './variables.scss';
+
+$base-size: $size-base;
+
+@function pxToRem($target, $context: $base-size) {
+  @return ($target / $context) * 1rem;
+}
+
+@function addColorOpacity($hex, $opacity: 1) {
+  @return rgba($hex, $opacity);
+}

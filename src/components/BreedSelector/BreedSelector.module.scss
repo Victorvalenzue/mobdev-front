@@ -1,0 +1,21 @@
+@import '../../styles/variables.scss';
+@import '../../styles/functions.scss';
+@import '../../styles/mixins.scss';
+
+.selector_container {
+  padding: pxToRem(8);
+  height: pxToRem(160);
+  overflow-x: auto;
+  border: pxToRem(3) solid $color-dark-grey-100;
+  position: fixed;
+  background: $standard-bg;
+  width: 90%;
+
+  @include box-shadow-large;
+
+  @include media-medium {
+    position: relative;
+    width: pxToRem(340);
+    height: pxToRem(360);
+  }
+}
